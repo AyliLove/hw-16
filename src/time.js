@@ -2,6 +2,7 @@ const plusZero = (str) => {
   return str < 10 ? `0${str}` : str;
 };
 
+
 export const now = (currentDate) => {
   let date = plusZero(currentDate.getDate());
   let month = plusZero(currentDate.getMonth() + 1);
